@@ -1,2 +1,2 @@
-# Verilog
+# Digital Systems
 All verilog projects
