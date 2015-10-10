@@ -1,6 +1,5 @@
 # Gary-code encoder
 Construction of a combinational logic for the gray-code encoder
-
 | abc (in)       | wxy (out) |
 | -------------- | --------- |
 | 000            | 000       |
