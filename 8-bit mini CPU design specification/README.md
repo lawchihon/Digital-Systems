@@ -2,7 +2,7 @@
 » 8-bit addition.  
 » Multiply by 2 and divide by 2 (shift left/right operation).  
 » It must have two 8-bit registers that hold values for the calculations.  
-» It takes in a 12-bit value as input (4-bit instruction set & 8-bit data).  
+» It takes in a 12-bit value as input (4-bit instruction set & 8-bit data).  
 » It gives out an 8-bit value as result of the calculations.  
 » Each instruction will happen during one clock cycle.  
 
