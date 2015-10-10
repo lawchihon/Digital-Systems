@@ -5,14 +5,14 @@
 // Engineer:
 //
 // Create Date:   14:21:00 04/08/2015
-// Design Name:   7segmentdisplay
-// Module Name:   7segmentdisplayTest.v
+// Design Name:   7SegmentDisplay
+// Module Name:   7SegmentDisplay_Test.v
 // Project Name:  7 segment display
 // Target Device:  
 // Tool versions:  
 // Description: 
 //
-// Verilog Test Fixture created by ISE for module: 7segmentdisplay
+// Verilog Test Fixture created by ISE for module: 7SegmentDisplay
 //
 // Dependencies:
 // 
@@ -22,7 +22,7 @@
 // 
 ////////////////////////////////////////////////////////////////////////////////
 
-module 7segmentdisplayTest;
+module 7SegmentDisplay_Test;
 
 	// Inputs
 	reg w;
@@ -40,7 +40,7 @@ module 7segmentdisplayTest;
 	wire g;
 
 	// Instantiate the Unit Under Test (UUT)
-	7segmentdisplay uut (
+	7SegmentDisplay uut (
 		.w(w), 
 		.x(x), 
 		.y(y), 

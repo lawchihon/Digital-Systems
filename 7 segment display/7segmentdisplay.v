@@ -5,7 +5,7 @@
 // 
 // Create Date:    14:13:43 04/08/2015 
 // Design Name: 
-// Module Name:    7segmentdisplay 
+// Module Name:    7SegmentDisplay 
 // Project Name: 
 // Target Devices: 
 // Tool versions: 
@@ -18,7 +18,7 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module 7segmentdisplay(
+module 7SegmentDisplay(
     input w,
     input x,
     input y,

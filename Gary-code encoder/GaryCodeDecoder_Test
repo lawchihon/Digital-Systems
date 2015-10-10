@@ -4,15 +4,15 @@
 // Company: 
 // Engineer:
 //
-// Create Date:   12:05:02 04/08/2015
-// Design Name:   Garycodeencoder
-// Module Name:   GarycodeencoderTest.v
-// Project Name:  Gary code encoder
+// Create Date:   12:20:40 04/08/2015
+// Design Name:   GaryCodeDecoder
+// Module Name:   GaryCodeDecoder_Test.v
+// Project Name:  Gary code decoder
 // Target Device:  
 // Tool versions:  
 // Description: 
 //
-// Verilog Test Fixture created by ISE for module: Garycodeencoder
+// Verilog Test Fixture created by ISE for module: GaryCodeDecoder
 //
 // Dependencies:
 // 
@@ -22,78 +22,78 @@
 // 
 ////////////////////////////////////////////////////////////////////////////////
 
-module GarycodeencoderTest;
+module GaryCodeDecoder_Test;
 
 	// Inputs
-	reg a;
-	reg b;
-	reg c;
+	reg w;
+	reg x;
+	reg y;
 
 	// Outputs
-	wire w;
-	wire x;
-	wire y;
+	wire e;
+	wire f;
+	wire g;
 
 	// Instantiate the Unit Under Test (UUT)
-	Garycodeencoder uut (
-		.a(a), 
-		.b(b), 
-		.c(c), 
+	GaryCodeDecoder uut (
 		.w(w), 
 		.x(x), 
-		.y(y)
+		.y(y), 
+		.e(e), 
+		.f(f), 
+		.g(g)
 	);
 
 	initial begin
 		// Initialize Inputs
-		a = 0;
-		b = 0;
-		c = 0;
+		w = 0;
+		x = 0;
+		y = 0;
 
 		// Wait 100 ns for global reset to finish
 		#100;
-		
+        
 		// Add stimulus here
-
-		a = 0;
-		b = 0;
-		c = 1;
+		
+		w = 0;
+		x = 0;
+		y = 1;
 		
 		#100;
 		
-		a = 0;
-		b = 1;
-		c = 0;
+		w = 0;
+		x = 1;
+		y = 1;
 		
 		#100;
 		
-		a = 0;
-		b = 1;
-		c = 1;
+		w = 0;
+		x = 1;
+		y = 0;
 		
 		#100;
 		
-		a = 1;
-		b = 0;
-		c = 0;
+		w = 1;
+		x = 1;
+		y = 0;
 		
 		#100;
 		
-		a = 1;
-		b = 0;
-		c = 1;
+		w = 1;
+		x = 1;
+		y = 1;
 		
 		#100;
 		
-		a = 1;
-		b = 1;
-		c = 0;
+		w = 1;
+		x = 0;
+		y = 1;
 		
 		#100;
 		
-		a = 1;
-		b = 1;
-		c = 1;
+		w = 1;
+		x = 0;
+		y = 0;
 		
 		#100;
 

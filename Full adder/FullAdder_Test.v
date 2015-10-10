@@ -6,7 +6,7 @@
 //
 // Create Date:   11:53:03 04/08/2015
 // Design Name:   FullAdder
-// Module Name:   FullAdderTest.v
+// Module Name:   FullAdder_Test.v
 // Project Name:  Full Adder
 // Target Device:  
 // Tool versions:  
@@ -22,7 +22,7 @@
 // 
 ////////////////////////////////////////////////////////////////////////////////
 
-module FullAdderTest;
+module FullAdder_Test;
 
 	// Inputs
 	reg A;
