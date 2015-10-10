@@ -1,6 +1,5 @@
 # Gary-code decoder
 Construction of a combination logic for the gray-code decoder
-
 | wxy (in) | efg (out) |
 | ---------| --------- |
 | 000      | 000       |
