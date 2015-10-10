@@ -1,0 +1,2 @@
+# BCD and gray code counter
+The circuit will have two types of counters (3-bits). If the input control = 0, the circuit will count in Binary-Code decimal (0, 1, 2, 3, 4, 5, 6, 7... sequence repeats). If the input control = 1, the circuit will count in Gray-code sequence and repeats. The input control can change at any time. If the counter value has odd numbers of ones, the output flag will show 1. Otherwise, the output flag shows 0.
